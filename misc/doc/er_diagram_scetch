@@ -1,0 +1,4 @@
+User < - > *Animal > id
+Animal < - > *Atribute - > 1Rareties > id > user_id
+Raretirs < - > 1Animal > id
+Atribute < - > *Animal 
