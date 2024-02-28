@@ -2,7 +2,8 @@ require 'sinatra'
 require 'slim'
 require 'sqlite3'
 require 'bcrypt'
-
+require 'sinatra/reloader'
+require 'sinatra/flash'
 
 enable :sessions
 
